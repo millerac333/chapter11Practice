@@ -7,5 +7,3 @@ oldSectionHeader.textContent = "Welcome Aaron blog";
 
 
 
-
-
