@@ -1,9 +1,10 @@
-// Use JavaScript to obtain a reference to the first article header and change its text with textContent property to "Welcome the {insert your name here} blog"
-// Use JavaScript to obtain a reference to all article__header elements and change their classList property value to "article__header important".
+let articleHeader = document(".aricle_header");
+articleHeader.textContent = "=Welcome to A-ARON's Blog"
 
-const oldSectionHeader = document.querySelector(".article__header");
-
-oldSectionHeader.textContent = "Welcome Aaron blog";
+let allArticleHeaders = document.querySelectorAll(".article_header");
+for (let i = 0; i < allArticleHeaders.length; i++) {
+    allArticleHeaders[i].setAttribute("classList","aricle_header important");
+}
 
 
 
